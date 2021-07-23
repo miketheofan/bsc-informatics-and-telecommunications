@@ -55,7 +55,7 @@ run:
 	@./$(OUT) -m 3 -b 300 -s 200 -i input_dir
 
 sh:
-	@./testFile.sh citizenRecordsFile.txt input_dir 6
+	@./testFile.sh citizensRecordsFile.txt input_dir 6
 
 debug:
 	@valgrind --leak-check=full ./$(OUT) -m 3 -b 300 -s 200 -i input_dir
